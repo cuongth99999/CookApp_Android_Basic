@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:title="Công thức nấu ăn"
+        app:titleTextColor="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/btnSearch"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/primary"
+        android:src="@color/primary" />
+
+    <ImageButton
+        android:id="@+id/btnProfile"
+        android:background="@drawable/circle"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_avatar"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <GridLayout
+        android:id="@+id/Layout_list"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/listViewFood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="1"/>
+
+    </GridLayout>
+</RelativeLayout>

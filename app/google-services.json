@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "442689406586",
+    "project_id": "cookapp-67e5c",
+    "storage_bucket": "cookapp-67e5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442689406586:android:633d53713ae8e474c45dc3",
+        "android_client_info": {
+          "package_name": "com.example.cookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442689406586-pi8c19g0r9oclsalliskvtef6n5gq9ut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cookapp",
+            "certificate_hash": "2e4ee6306338ebbd5e6dc67192d2c49c99f1d072"
+          }
+        },
+        {
+          "client_id": "442689406586-pf0d7e52k6tih23nebvngf6sdteaf6cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhGncGwQ8ap0H3hCTOxfgz0SvSuZlcXZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442689406586-pf0d7e52k6tih23nebvngf6sdteaf6cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

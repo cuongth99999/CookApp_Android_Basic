@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Edit">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+
+        <ImageView
+            android:src="@drawable/ic_add_photo"
+            android:id="@+id/imgRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primary" />
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/imgSaveRecipe"
+            android:src="@drawable/ic_baseline_save"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="350dp"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:text="Công thức nấu ăn"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtTenMonAn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên món ăn"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/txtCongThuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Công thức"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
